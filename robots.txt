@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://gentambob.github.iogentaCV/sitemap.xml
+Sitemap: https://gentambob.github.iogentaK/sitemap.xml
