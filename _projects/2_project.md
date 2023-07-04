@@ -1,80 +1,32 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image
-img: assets/img/3.jpg
-importance: 2
-category: work
+title: Habitus of Cohabitation 
+#description: a project with a background image
+img: assets/img/kebo.jpg
+importance: 3
+category: [fun, work]
 ---
-
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/kebo_kacmap.jpg" caption="count" class="img-fluid rounded z-depth-1" width="280px" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/kebo_prop_kacmap.jpg" caption="proportion" class="img-fluid rounded z-depth-1" width="280px" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
+    Kos2an <b>without</b> any rule related to the disallowance of premarital cohabitation.
+    <br>
+    Such rule includes gendered property, explicit bans of visit/stay of "opposite sex" and spesific exception for the "married couple".
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
+Kos-Kosan, also known as "*inde kost*" or "*kost*," is a term used in Indonesia to refer to boarding houses or rented rooms. Kos-Kosan provides affordable accommodation for individuals who are studying or working away from their hometowns. These establishments are typically located in urban areas near universities, schools, or business districts to meet the demands of students, young professionals, and migrant workers who require convenient and affordable housing options.
+
+[//]: <> (Kos-Kosan facilities often consist of single or shared rooms with basic amenities such as a bed, desk, chair, wardrobe, and sometimes an attached bathroom. Common areas like kitchens, dining spaces, and communal living rooms may be available for tenants to share. Kos-Kosan may also provide additional facilities such as Wi-Fi, laundry services, parking spaces, and 24-hour security.)
+
+The owners tend to impose in-house rules, and such rules may include the disallowance of cohabitation for unmarried couples. Premarital cohabitation, known as "*kumpul kebo*" in Indonesia, is considered a transgression of cultural, religious, and legal norms. These norms emphasize the sanctity of marriage (or virginity) and promote traditional family values. Landlords may enforce this rule to maintain a certain reputation and cater to the majority of the target market that adheres to these values.
 
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+This project aims to investigate if there is socio-spatial variation in how this moral value translates into rules in kos-kosan.
+To answer this, I scraped a <a href='https://mamikos.com'>website</a> that provides information on kost2an and mapped their *numbers* based on the imposition of rules related to premarital cohabitation.
 
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
