@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://gentambob.github.io/gentaK//sitemap.xml
+Sitemap: https://gentambob.github.io/cv//sitemap.xml
